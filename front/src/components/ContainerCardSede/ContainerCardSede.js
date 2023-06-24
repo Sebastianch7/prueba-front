@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 function ContainerCardSede({ children }) {
     return (
         <Container>
-            <Row className='m-4'>
+            <Row>
                 {children}
             </Row>
         </Container>
